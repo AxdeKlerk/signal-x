@@ -1,0 +1,71 @@
+/* Global settings*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-color: #110A14;
+    color: #F5F5F5;
+    font-size: 14px;
+    max-width: 1200px;
+    width: 95%;
+    font-family: 'Comic Neue', sans-serif;
+    padding-bottom: 75px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: red;
+}
+
+/* Navbar */
+#navbar-custom {
+    background-color: #1a1a1a;
+}
+#navbar-custom .nav-link {
+    text-decoration: none;
+    color: #F5F5F5;
+    height: 1.8rem;
+}
+#navbar-custom .nav-link.active {
+    color: red;
+}
+#navbar-custom .nav-link:hover {
+    color: red;
+}
+
+/* Hero Section */
+.hero {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.hero img {
+    height: auto;
+    width: 90%;
+}
+
+.btn-primary {
+    padding: 0.75rem 1.25rem;
+}
+
+/* About Section */
+.about {
+    background-color: #1a1a1a;
+    padding: 0.5rem;
+}
+
+
+/* Contact */
+.contact {
+    background-color: #110A14;
+    padding: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    color: red;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
