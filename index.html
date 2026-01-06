@@ -10,10 +10,10 @@
     </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar sticky-top">
         <div class="container-fluid" id="navbar-custom">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo-sm.png" alt="Signal X Logo" width="30" height="36">
+                <img src="assets/images/logo-v2-sm.png" alt="Signal X Logo" width="auto" height="36">
             </a>
 
             <ul class="navbar-nav d-flex flex-row gap-3">
@@ -32,36 +32,137 @@
 
     <!-- Hero Section -->
     <div class="container">
-        <div class="row">
-            <div class="col text-center hero">
-                <img src="assets/images/signal-x-hero-v4.png" class="img-fluid" alt="Signal X Hero Image" class="mb-4" width="900">
+        <div class="row mt-5 align-items-center">
+            <div class="col-8 text-left hero text-wrap">
+                <h1>Short explainer videos for complex B2B products</h1>
+                <h2>We create clear, high-impact animations that help SaaS and technical services get understood before they're bought.</h2>
+            </div>
+            <div class="col-4 text-left mt-4 mb-5">
+                <div class="hero-motion">
+                <svg viewBox="0 0 200 500" preserveAspectRatio="xMidYMid meet">
+
+                    <path
+                    fill="none"
+                    stroke="#11ED73"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    opacity="0.7"
+                    d="
+                        M100,0
+                        C40,120 160,240 100,360
+                        C40,480 160,600 100,720
+                    ">
+
+                    <animate
+                        attributeName="d"
+                        dur="10s"
+                        repeatCount="indefinite"
+                        calcMode="spline"
+                        keyTimes="0;0.35;0.7;1"
+                        keySplines="
+                        0.4 0 0.2 1;
+                        0 0 1 1;
+                        0.4 0 0.2 1
+                        "
+                        values="
+                        M100,0 C40,120 160,240 100,360 C40,480 160,600 100,720;
+                        M100,0 C100,120 100,240 100,360 C100,480 100,600 100,720;
+                        M100,0 C100,120 100,240 100,360 C100,480 100,600 100,720;
+                        M100,0 C40,120 160,240 100,360 C40,480 160,600 100,720
+                        " />
+
+                    <animate
+                        attributeName="opacity"
+                        dur="10s"
+                        repeatCount="indefinite"
+                        values="0;0.9;0.9;0"
+                        keyTimes="0;0.2;0.7;1" />
+
+                    </path>
+
+                </svg>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- About Section -->
+    <!-- Solution Content -->
     <div class="container">
-        <div class="row about">
-            <div class="col text-center">
-                <h2>About Signal X</h2>
-                <p>Signal X is a revolutionary platform designed to enhance communication and collaboration.</p>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3>When explainer videos are the right solution</h3>
+                <div class="solution-item">
+                   <h4>Your product is complex or technical</h4>
+                    <p>If it takes more than a paragraph to explain what you do, an explainer video can reduce friction and confusion early.</p>
+                    <hr> 
+                </div>
+                <div class="solution-item">
+                    <h4>Your product is complex or technical</h4>
+                    <p>If it takes more than a paragraph to explain what you do, an explainer video can reduce friction and confusion early.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>Your product is complex or technical</h4>
+                    <p>If it takes more than a paragraph to explain what you do, an explainer video can reduce friction and confusion early.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>Your sales cycle depends on understanding</h4>
+                    <p>When buyers need to “get it” before they can commit, explainer videos support sales conversations instead of replacing them.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>You're launching something new</h4>
+                    <p>New products, platforms, or services benefit from a clear narrative that aligns teams, stakeholders, and prospects.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>You need consistency at scale</h4>
+                    <p>Explainer videos ensure your message is delivered clearly and consistently — across sales, marketing, onboarding, and support.</p>
+                    <hr>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Contact Section -->
+    <!-- How Content -->
     <div class="container">
-        <div class="row contact">
-            <div class="col text-center">
-                <h2>Contact Us</h2>
-                <p>Get in touch with us for more information.</p>
+        <div class="row mt-5 align-items-center">
+            <div class="col-12">
+                <h3>The Process</h3>
+                <div class="solution-item">
+                    <h4>1. Understand</h4>
+                    <p>We start by understanding your product, audience, and goals — so the animation explains the right things in the right way.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>2. Animate</h4>
+                    <p>We design and animate a clear narrative that turns complexity into something easy to follow and easy to remember.</p>
+                    <hr>
+                </div>
+                <div class="solution-item">
+                    <h4>3. Deliver</h4>
+                    <p>You receive a polished explainer video, ready to use across sales, marketing, onboarding, and support.</p>
+                    <hr>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-sm-6 col-md-4 text-left mt-4 mb-5">
+                        <a href="how.html" class="btn btn-primary justify-content-center">Start a project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="bg-dark text-center py-1 footer">
-        &copy; 2025 Signal X All rights reserved.
+    <footer class="text-center py-1 footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="copyright">&copy;</span>
+                <img src="assets/images/logo-v2-sm.png" class="img-fluid" alt="Signal X Logo">
+            </div>
+            <span class="footer-text">All rights reserved</span>
+        </div>
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
