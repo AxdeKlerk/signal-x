@@ -87,6 +87,14 @@ section h2 {
 #cta .p {
     font-size: 1.5rem;
 }
+.about-link a {
+    color: #F9CC7F;
+    text-decoration: underline;
+}
+.about-link a {
+    color: rgba(0, 255, 200, 0.6);
+    text-decoration: underline;
+}
 
 /* Buttons */
 .btn-primary {
