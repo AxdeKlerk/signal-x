@@ -162,3 +162,10 @@ section h2 {
 .footer-text {
     font-size: 0.5rem;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #hero {
+        margin-top: 3rem;
+    }
+}
