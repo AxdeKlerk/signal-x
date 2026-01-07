@@ -66,6 +66,9 @@ section h2 {
 }
 
 /* Hero */
+#hero {
+    margin-top: 9rem;
+}
 #hero p {
     font-size: 1.1rem;
 }
@@ -133,6 +136,7 @@ section h2 {
     bottom: 0;
     width: 100%;
     text-align: center;
+    position: sticky;
 }
 .footer-inner {
     display: flex;
