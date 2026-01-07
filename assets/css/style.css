@@ -91,9 +91,9 @@ section h2 {
     color: #F9CC7F;
     text-decoration: underline;
 }
-.about-link a {
+.about-link a:hover {
     color: rgba(0, 255, 200, 0.6);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Buttons */
@@ -108,9 +108,15 @@ section h2 {
 }
 
 /* About */
-.about {
+#about {
     background-color: #1a1a1a;
     padding: 0.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#about h1 {
+    margin-top: 1rem;
+    color: rgba(0, 255, 200, 0.6);
 }
 
 
