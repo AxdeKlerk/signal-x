@@ -73,10 +73,21 @@ section h2 {
     font-size: 1.1rem;
 }
 
-/* Problem, Process % Trust */
+/* Problem, Process & Trust */
 .card-border {
     border: 2px solid rgba(0, 255, 200, 0.6);
     background-color: #111; 
+}
+
+/* Pricing */
+#pricing {
+    background-color: #1a1a1a;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    border-radius: 8px;
+    margin: 4rem auto;
+    max-width: 600px;
 }
 
 
