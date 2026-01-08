@@ -85,7 +85,7 @@ section h2 {
     padding-top: 3rem;
     padding-bottom: 2.5rem;
     padding-left: 1rem;
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 4rem auto;
     max-width: 600px;
 }
@@ -137,11 +137,21 @@ section h2 {
 /* Contact */
 #contact {
     background-color: #110A14;
-    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    max-width: 800px;
 }
 #contact h1 {
     margin-top: 1rem;
     color: rgba(0, 255, 200, 0.6);
+}
+.email-link a {
+    color: #F9CC7F;
+    text-decoration: underline;
+}
+.email-link a:hover {
+    color: rgba(0, 255, 200, 0.6);
+    text-decoration: none;
 }
 
 /* Footer */

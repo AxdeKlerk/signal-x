@@ -31,7 +31,7 @@
     </nav>
 
     <!-- Contact Section -->
-    <div class="container" id="contact">
+    <div class="container mb-5" id="contact">
         <div class="row contact">
             <div class="col text-center">
                 <h1>Start a conversation</h1>
@@ -45,8 +45,45 @@
                 </p>
             </div>
         </div>
+
+        <!-- Contact Form -->
+        <div class="row mt-2 justify-content-center">
+            <div class="col-md-6">
+                <form method="post" action="mailto:hello@signal-x.co.uk" enctype="text/plain">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Work Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Brief Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Discuss a project</button>
+                </form>
+            </div>
+        </div>
     </div>
 
+    <!-- Email -->
+    <section class="container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <p class="mb-1">
+                    Prefer email? (opens your email client)
+                </p>
+                <p class="email-link">
+                    <a href="mailto:hello@signal-x.co.uk">
+                        hello@signal-x.co.uk
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+ 
     <!-- Footer -->
         <footer class="text-center py-1 footer">
         <div class="footer-inner">
